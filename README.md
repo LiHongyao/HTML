@@ -1,16 +1,24 @@
 
 
+
+
+# 一、前言
+
 一个基本的网站包含很多个网页，一个网页由` HTML`, `CSS` 和 `JavaScript`  组成，其中：
 
 - HTML：结构层，决定网页的结构和内容（ “是什么”）
 - CSS：渲染层，设定网页的表现样式（ “长啥样”）
 - Javascript：行为层，控制网页的行为（ “做什么”）
 
-# 一、HTML是什么？
+**开发工具：**
+
+工欲善其事必先利其器，前端开发中，推荐使用VSCode IDE，[点击前往官网下载 >>](https://code.visualstudio.com/download)
+
+# 二、HTML是什么？
 
 HTML（HyperText Markup Language，超文本标记语言） 是一种描述语言，用来定义网页结构。
 
-# 二、发展历史
+# 三、发展历史
 
 1990 年，由于对 [Web](https://developer.mozilla.org/zh-CN/docs/Glossary/World_Wide_Web) 未来发展的远见，Tim Berners-Lee 提出了 [超文本](https://developer.mozilla.org/zh-CN/docs/Glossary/Hypertext) 的概念，并在第二年在 [SGML (en-US)](https://developer.mozilla.org/en-US/docs/Glossary/SGML) 的基础上将其正式定义为一个标记语言。[IETF (en-US)](https://developer.mozilla.org/en-US/docs/Glossary/IETF) 于 1993 年正式开始制定 HTML 规范，并在经历了几个版本的草案后于 1995 年发布了 HTML 2.0 版本。1994年，Berners-Lee 为了 Web 发展而成立了 [W3C (en-US)](https://developer.mozilla.org/en-US/docs/Glossary/W3C)。1996 年，W3C 接管了 HTML 的标准化工作，并在1年后发布了 HTML 3.2 推荐标准。1999 年，HTML 4.0 发布，并在 2000 年成为 [ISO (en-US)](https://developer.mozilla.org/en-US/docs/Glossary/ISO) 标准。
 
@@ -18,7 +26,7 @@ HTML（HyperText Markup Language，超文本标记语言） 是一种描述语�
 
 > 提示：摘自[MDN >>](https://developer.mozilla.org/zh-CN/docs/Glossary/HTML)
 
-# 三、概念和语法
+# 四、概念和语法
 
 HTML 文档是包含多个 HTML 元素 的文本文档。每个元素都用一对开始和结束标签包裹，每个标签以尖括号（`<>`）开始和结束，如：
 
@@ -34,7 +42,7 @@ HTML 文档是包含多个 HTML 元素 的文本文档。每个元素都用一�
 
 
 
-# 四、元素分类
+# 五、元素分类
 
 HTML 元素分为块级元素（`block`）、行内元素（`inline`）以及行内块元素（`inline-block`），三种元素类型的特性如下：
 
@@ -50,7 +58,7 @@ HTML 元素分为块级元素（`block`）、行内元素（`inline`）以及行
 
 ![](./IMGS/check_display.png)
 
-# 五、标签嵌套
+# 六、标签嵌套
 
 所谓标签的嵌套，是指一个标签对以内包含另外一个标签，如：\<html>标签内包含\<head>和\<body>两个标签对，而\<head>标签内又可以包含\<meta>和\<title>等标签。也就是说标签不仅可以单独存在，又可以包含其它一个或多个标签，而且标签的嵌套可以是多层的，并且嵌套层数是没有限制的。
 
@@ -62,7 +70,7 @@ HTML 元素分为块级元素（`block`）、行内元素（`inline`）以及行
 - 同一个显示类型的标签可以进行嵌套，如：“块级标签>块级标签”、“行内块标签>行内块标签”和“行内标签>行内标签”。
 - 避免使用“行内标签”去嵌套“行内块标签”和“块级标签”、“行内块标签”去嵌套“块级标签”，虽然有的时候在显示上并不会出现问题，但“行内标签”大部分是不具备布局属性的，需要进行显示类型转换（*display*）才能够进行CSS的布局设置，既麻烦，又不规范。
 
-# 六、HTML 基本文档结构
+# 七、HTML 基本文档结构
 
 HTML基本文档结构是指组成一个基本的HTML页面所必须的元素标签。具体编写格式如下：
 
