@@ -2,7 +2,7 @@
  * @Author: Lee
  * @Date: 2021-09-09 10:14:16
  * @LastEditors: Lee
- * @LastEditTime: 2021-09-09 10:14:17
+ * @LastEditTime: 2021-12-14 10:09:12
 -->
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -11,6 +11,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML 基础</title>
+    <style>
+      abbr {
+        border: none;
+        color: red;
+        outline: none;
+        text-decoration: none;
+      }
+      abbr:hover::after {
+        color: blue;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <p>
+      You can use <abbr title="Cascading Style Sheets">CSS</abbr> to style your
+      <abbr title="HyperText Markup Language">HTML</abbr>.
+    </p>
+  </body>
 </html>
