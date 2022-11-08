@@ -12,11 +12,11 @@
 
 **开发工具：**
 
-工欲善其事必先利其器，前端开发中，推荐使用VSCode IDE，[点击前往官网下载 >>](https://code.visualstudio.com/download)
+工欲善其事必先利其器，推荐使用 VSCode IDE，[点击前往官网下载 >>](https://code.visualstudio.com/download)
 
 # 二、HTML是什么？
 
-HTML（HyperText Markup Language，超文本标记语言） 是一种描述语言，用来定义网页结构。
+HTML（**H**yper**T**ext **M**arkup **L**anguage，超文本标记语言） 是一种描述语言，用来定义网页结构。
 
 # 三、发展历史
 
@@ -36,9 +36,11 @@ HTML 文档是包含多个 HTML 元素 的文本文档。每个元素都用一�
 
 其中 `<div>` 为开始标签，`</div>` 为结束标签， `Hello` 为文本内容。当然，也有一部分标签中不需要包含文本，这些标签称为 **空标签**，如 `<img />`。
 
+![](./IMGS/grumpy-cat-small.png)
+
 你也可以使用 **属性** 来扩展 HTML 标签，属性用来提供一些附加信息，这些信息可能会影响浏览器对元素的解析。属性在开始标签中设置，其形式为 `key=value`，多个属性之间使用空格隔开。
 
-![](https://mdn.mozillademos.org/files/7659/anatomy-of-an-html-element.png)
+![](./IMGS/grumpy-cat-attribute-small.png)
 
 
 
